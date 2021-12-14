@@ -4,7 +4,7 @@ import { useAuth } from "@/lib/auth";
 
 import { useRouter } from "next/router";
 
-const Dashboard = () => {
+const Profile = () => {
   const auth = useAuth();
   const router = useRouter();
   const { user } = auth;
@@ -38,4 +38,4 @@ const Dashboard = () => {
     </div>
   );
 };
-export default Dashboard;
+export default Profile;

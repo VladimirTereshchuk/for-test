@@ -1,10 +1,10 @@
 import Link from "next/link";
 import LoginButtons from "@/components/LoginButtons";
 
-const Index = (props) => {
+const Index = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <Link href="/dashboard">
+      <Link href="/profile">
         <a>Profile</a>
       </Link>
 
