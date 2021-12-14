@@ -7,12 +7,11 @@ const Index = () => {
       style={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
-        width: "200px",
+        alignItems: "center",
       }}
     >
       <Link href="/">
-        <a>Back Home</a>
+        <a style={{ marginBottom: 30 }}>Back Home</a>
       </Link>
       <LoginButtons />
     </div>

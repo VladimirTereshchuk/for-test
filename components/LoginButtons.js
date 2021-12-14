@@ -5,10 +5,15 @@ const LoginButtons = () => {
 
   return (
     <button
-      style={{ backgroundColor: "grey" }}
+      style={{
+        backgroundColor: "blue",
+        cursor: "pointer",
+        color: "white",
+        fontSize: "1rem",
+      }}
       onClick={() => auth.signinWithGoogle()}
     >
-      Sign with Google
+      SignIn with Google
     </button>
   );
 };

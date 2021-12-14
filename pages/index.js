@@ -3,9 +3,11 @@ import LoginButtons from "@/components/LoginButtons";
 
 const Index = () => {
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div
+      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+    >
       <Link href="/profile">
-        <a>Profile</a>
+        <a style={{ marginBottom: 30 }}>ProfilePage</a>
       </Link>
 
       <img

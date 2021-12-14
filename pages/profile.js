@@ -20,15 +20,18 @@ const Profile = () => {
       style={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
-        margin: "auto",
+        alignItems: "center",
       }}
     >
       <h1>Profile Page</h1>
       <div>
         {auth?.user && (
           <button
-            style={{ backgroundColor: "blue", color: "white" }}
+            style={{
+              backgroundColor: "blue",
+              color: "white",
+              fontSize: "1rem",
+            }}
             onClick={() => auth.signout()}
           >
             SingOut
