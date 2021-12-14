@@ -16,11 +16,24 @@ const Dashboard = () => {
   }, [user]);
 
   return (
-    <div>
-      <h1>Profile</h1>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        margin: "auto",
+      }}
+    >
+      <h1>Profile Page</h1>
       <div>
-        {auth?.user && <button onClick={() => auth.signout()}>SingOut</button>}
-        {/* <button onClick={() => auth.signout()}>SingOut</button>s */}
+        {auth?.user && (
+          <button
+            style={{ backgroundColor: "blue", color: "white" }}
+            onClick={() => auth.signout()}
+          >
+            SingOut
+          </button>
+        )}
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ const LoginButtons = () => {
       style={{ backgroundColor: "grey" }}
       onClick={() => auth.signinWithGoogle()}
     >
-      Continue with Google
+      Sign with Google
     </button>
   );
 };
